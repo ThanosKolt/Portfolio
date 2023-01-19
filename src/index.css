@@ -247,6 +247,12 @@ nav {
   border:2px solid var(--clr-text);
   border-radius: 10px;
 }
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 .project-title{
   grid-column: 1/3;
   display: flex;
@@ -262,13 +268,15 @@ nav {
   border: 2px solid rgb(241, 241, 241);
   border-radius: 10px;
   height: 310px;
+  width: 310px;
+  object-fit: cover;
 }
 .project-body {
   display: flex;
   flex-direction: column;
   margin: 1em;
 }
-.project-skills-container{
+.project-links-container{
   display: flex;
   align-items: start;
   gap: 1em;
@@ -276,11 +284,13 @@ nav {
   grid-row: 3;
 }
 
-.project-skill {
+.project-link {
   border-radius: 10px;
   background-color: var(--clr-accent);
   padding: 0.4em 0.8em;
   margin: 0;
+  text-decoration: none;
+  color: var(--clr-text);
 }
 
 @media(max-width: 1100px){
@@ -304,3 +314,30 @@ nav {
   grid-row: 2/3;
 }
 }
+
+/* contact page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-header {
+  margin: 2.5em;
+}
+
+.contact-sub {
+  margin-top: 1em;
+}
+
+.contact-container a {
+  /* text-decoration: none; */
+  color: var(--clr-text)
+}
+
+.contact-content , .contact-content p {
+  font-size: var(--fs-h3);
+}
+

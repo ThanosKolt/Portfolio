@@ -10,7 +10,7 @@ function Projects() {
           technologies and are a great practice for me to learn more
         </p>
       </header>
-      <div className="-projects-content">
+      <div className="projects-content">
         <div className="single-project-container">
           <h3 className="project-title">Social Media App</h3>
           <div className="project-img-container">
@@ -32,9 +32,48 @@ function Projects() {
               (and later delete) a blog, search for other users to follow, like
               and comment on the posts you find interesting.
             </p>
-            <div className="project-skills-container">
-              <p className="project-skill">View code on Github</p>
-              <p className="project-skill">Try the App</p>
+            <div className="project-links-container">
+              <a
+                href="https://github.com/ThanosKolt/MERN-BLOG"
+                target="_blank"
+                className="project-link"
+              >
+                View code on Github
+              </a>
+              <a href="#" target="_blank" className="project-link">
+                Try the App
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="single-project-container">
+          <h3 className="project-title">Weather App</h3>
+          <div className="project-img-container">
+            <img
+              className="project-img"
+              src={require("../images/WEATHER-APP.png")}
+              alt="project-img"
+            />
+          </div>
+          <div className="project-body">
+            <p className="project-desc">
+              This app is build with React and it uses three external APIs to
+              fetch weather data via the Axios library. It uses two geoloction
+              APIs to map latitude and lognitude to a particular city and one
+              weather API to fetch the weather data according to the provided
+              geolaction.
+            </p>
+            <div className="project-links-container">
+              <a
+                href="https://github.com/ThanosKolt/REACT-WEATHER-APP"
+                target="_blank"
+                className="project-link"
+              >
+                View code on Github
+              </a>
+              <a href="#" target="_blank" className="project-link">
+                Try the App
+              </a>
             </div>
           </div>
         </div>
