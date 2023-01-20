@@ -145,7 +145,7 @@ nav {
     background-color: var(--clr-bg);
   }
   section {
-    padding: 5.7em;
+    padding:5.7em 2em;
   }
   .bars {
     display: block;
@@ -207,7 +207,7 @@ nav {
 
 .about-header {
   grid-column: 1/3;
-  margin: 2.5em;
+  margin: 2.5em 0;
   text-align: center;
 }
 .about-desc-container {
