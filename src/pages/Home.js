@@ -12,7 +12,11 @@ function Home() {
         in software development. If you are interested I'll be happy to hear
         from you.
       </p>
-      <button className="cv-btn">Get my CV</button>
+      <button className="cv-btn">
+        <a href={require("../images/MERN-BLOG.png")} target="_blank">
+          Get my CV
+        </a>
+      </button>
     </section>
   );
 }
