@@ -145,7 +145,7 @@ nav {
     background-color: var(--clr-bg);
   }
   section {
-    padding:5.7em 2em;
+    padding:5.7em 1em;
   }
   .bars {
     display: block;
@@ -250,7 +250,7 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 2.5em;
+  margin: 2.5em 0.8em;
 }
 
 .single-project-container {
@@ -344,7 +344,7 @@ nav {
 }
 
 .contact-header {
-  margin: 2.5em;
+  margin: 2.5em 0;
 }
 
 .contact-sub {
