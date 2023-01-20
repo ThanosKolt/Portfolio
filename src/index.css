@@ -44,7 +44,7 @@ body {
 }
 
 section {
-  padding: 2em 2em;
+  padding: 2em;
   background: linear-gradient(rgba(22,224,189,0.08) 0%, rgba(255,255,255,1) 30%);
 }
 
@@ -89,9 +89,10 @@ nav {
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3em;
+  padding: 0 1.8em;
   box-shadow: 0 0px 10px 0 rgba(0,0,0,.2);
-  transition: 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  z-index: 3;
 }
 
 .nav-logo {
@@ -116,9 +117,9 @@ nav {
 .bars {
   display: none;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
-.bars:hover {
+.bars-open {
   rotate: 90deg;
   color: var(--clr-accent);
 }
@@ -134,10 +135,17 @@ nav {
   }
   nav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 180px 1fr;
     grid-template-rows: 60px auto;
     height: fit-content;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
     row-gap: 0.4em;
+    background-color: var(--clr-bg);
+  }
+  section {
+    padding: 5.7em;
   }
   .bars {
     display: block;
@@ -152,10 +160,15 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
 }
 .home-title {
   text-align: center;
+  margin-top: 4rem;
+}
+@media (max-width:380px){
+  .home-title{
+    font-size: 1.7rem
+  }
 }
 .home-text {
   text-align: center;

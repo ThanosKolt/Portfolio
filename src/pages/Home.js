@@ -13,7 +13,7 @@ function Home() {
         from you.
       </p>
       <button className="cv-btn">
-        <a href={require("../images/MERN-BLOG.png")} target="_blank">
+        <a href={require("../images/cv.pdf")} target="_blank">
           Get my CV
         </a>
       </button>

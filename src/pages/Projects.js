@@ -38,9 +38,13 @@ function Projects() {
                 target="_blank"
                 className="project-link"
               >
-                View code on Github
+                View code
               </a>
-              <a href="#" target="_blank" className="project-link">
+              <a
+                href="https://mern-blog-client.netlify.app/"
+                target="_blank"
+                className="project-link"
+              >
                 Try the App
               </a>
             </div>
@@ -69,9 +73,13 @@ function Projects() {
                 target="_blank"
                 className="project-link"
               >
-                View code on Github
+                View code
               </a>
-              <a href="#" target="_blank" className="project-link">
+              <a
+                href="https://koltsidas-react-weather-app.netlify.app/"
+                target="_blank"
+                className="project-link"
+              >
                 Try the App
               </a>
             </div>
