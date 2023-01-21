@@ -29,8 +29,8 @@ function Projects() {
               authorization is handled by a JWT Token and the user password gets
               hashed before stored via the bcrypt library. The app has the
               following features: Register and login with your own account, post
-              (and later delete) a blog, search for other users to follow, like
-              and comment on the posts you find interesting.
+              (or delete) a blog, search for other users to follow, like and
+              comment on the posts you find interesting.
             </p>
             <div className="project-links-container">
               <a
@@ -62,10 +62,9 @@ function Projects() {
           <div className="project-body">
             <p className="project-desc">
               This app is build with React and it uses three external APIs to
-              fetch weather data via the Axios library. It uses two geoloction
-              APIs to map latitude and lognitude to a particular city and one
-              weather API to fetch the weather data according to the provided
-              geolaction.
+              fetch weather data. It uses two geoloction APIs to map latitude
+              and longitude to a particular city and one weather API to fetch
+              the weather data according to the provided geolaction.
             </p>
             <div className="project-links-container">
               <a

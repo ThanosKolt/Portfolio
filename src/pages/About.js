@@ -8,8 +8,8 @@ function About() {
           <h2 className="about-title">About me</h2>
           <div className="underline"></div>
           <p className="about-sub">
-            Here you will find more information about me, what i do, and my
-            current skills mostly in terms of programming and technology
+            Here you will find more information about me and my current skills
+            in terms of programming and technology
           </p>
         </div>
         <div className="about-desc-container">
@@ -24,23 +24,26 @@ function About() {
             studying I realised that my passion for Science and Software go hand
             in hand. For the past year I've been focusing on learning JavaScript
             and its ecosystem. I feel like I'm at the point now where joining a
-            professional development team is the best way to keep me growing and
-            learning.
+            professional development team is the best way to help me grow and
+            learn.
           </p>
         </div>
         <div className="about-skills-container">
           <h3 className="about-skills-title">My Skills</h3>
-          <p className="about-skills-btns">
+          <div className="about-skills-btns">
             <button className="skill-btn">HTML</button>
             <button className="skill-btn">CSS</button>
             <button className="skill-btn">JavaScript</button>
             <button className="skill-btn">React</button>
-            <button className="skill-btn">Express (Node)</button>
+            <button className="skill-btn">Node</button>
+            <button className="skill-btn">Express</button>
+            <button className="skill-btn">Bootstrap</button>
             <button className="skill-btn">MongoDB</button>
             <button className="skill-btn">SQL</button>
-            <button className="skill-btn">Git</button>
             <button className="skill-btn">C#</button>
-          </p>
+            <button className="skill-btn">Python</button>
+            <button className="skill-btn">Git</button>
+          </div>
         </div>
       </div>
     </section>
