@@ -6,8 +6,8 @@ function Projects() {
         <h2 className="projects-title">My Projects</h2>
         <div className="underline"></div>
         <p className="projects-sub">
-          The following projects are ment to show my skills at certain
-          technologies and are a great practice for me to learn more
+          The following projects are meant to show my skills in certain
+          technologies and are a great practice for me to learn more.
         </p>
       </header>
       <div className="projects-content">
